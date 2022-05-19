@@ -162,7 +162,7 @@ const Formulario = () => {
                                 placeholder='Apellido'
                                 onChange={(e) => setApe(e.target.value)}
                             />
-                            <input type="text"
+                            <input type="email"
                                 className='form-control mb-2'
                                 placeholder='Correo'
                                 onChange={(e) => setCorreo(e.target.value)}
